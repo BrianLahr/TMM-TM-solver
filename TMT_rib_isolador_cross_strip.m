@@ -105,8 +105,8 @@ fprintf('   > Comprimento Característico L_IS: %.3f mm\n', L_IS*1e3);
 
 % --- 2. Parâmetros do Modelo de Overlap (do Artigo) ---
 % Coeficientes de sobreposição (overlap) ideais: w0 = w1.
-w0 = 0.703; 
-w1 = 0.703;
+w0 = 0.703^2; 
+w1 = 0.703^2;
 
 % --- 3. Parâmetros de Comprimento e Plotagem ---
 % Análise em torno do comprimento característico L_IS
